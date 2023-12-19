@@ -16,7 +16,6 @@ class ReminderBroadcast : BroadcastReceiver() {
     }
 }
 
-// And in the same file, create a NotificationHelper class:
 class NotificationHelper(private val context: Context) {
     private val CHANNEL_ID = "reminderChannel"
     var manager: NotificationManager? = null
